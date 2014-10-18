@@ -5,4 +5,6 @@ Code for downloading and interpreting Panel Study of Income Dynamics data in pyt
 
 Users must first register at http://psidonline.isr.umich.edu/
 
-TODO: interpreting .sas files for easy reading.
+Editing "download.py", the user can set the target directory. They must also set their user name and password from the registration. The program will download files, and convert them to .csv using a python interpreter for .sas import code. It will also create a subdirectory for code books.
+
+TODO: create panels.
